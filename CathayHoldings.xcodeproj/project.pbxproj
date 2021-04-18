@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39A31AB9262AA9A700B7CDE9 /* CHMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A31AB7262AA9A700B7CDE9 /* CHMainViewController.swift */; };
+		39A31ABA262AA9A700B7CDE9 /* CHMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39A31AB8262AA9A700B7CDE9 /* CHMainViewController.xib */; };
+		39B55A22262AA1740044B32C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B55A21262AA1740044B32C /* AppDelegate.swift */; };
+		39B55A2B262AA1750044B32C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B55A2A262AA1750044B32C /* Assets.xcassets */; };
+		39B55A2E262AA1750044B32C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B55A2C262AA1750044B32C /* LaunchScreen.storyboard */; };
+		39B55A39262AA1750044B32C /* CathayHoldingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B55A38262AA1750044B32C /* CathayHoldingsTests.swift */; };
+		39B55A44262AA1750044B32C /* CathayHoldingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B55A43262AA1750044B32C /* CathayHoldingsUITests.swift */; };
+		39B67E89262B21DA0010A51B /* CHMainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B67E87262B21DA0010A51B /* CHMainViewCell.swift */; };
+		39B67E8A262B21DA0010A51B /* CHMainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B67E88262B21DA0010A51B /* CHMainViewCell.xib */; };
+		39B67E9D262C0B840010A51B /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B67E9C262C0B840010A51B /* UIImageViewExtension.swift */; };
+		39B67EAA262C0C110010A51B /* CHWebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B67EA9262C0C110010A51B /* CHWebServiceManager.swift */; };
+		39B67EB0262C0F7C0010A51B /* CHZooPlantWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B67EAF262C0F7C0010A51B /* CHZooPlantWS.swift */; };
+		39B67EB8262C12C50010A51B /* CHWebServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B67EB7262C12C50010A51B /* CHWebServiceModel.swift */; };
+		39B67EBD262C14DC0010A51B /* URLRequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B67EBC262C14DC0010A51B /* URLRequestExtension.swift */; };
+		39B67EC2262C16070010A51B /* ErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B67EC1262C16070010A51B /* ErrorExtension.swift */; };
+		39B67EC8262C31550010A51B /* CHMainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B67EC6262C31550010A51B /* CHMainDetailViewController.swift */; };
+		39B67EC9262C31550010A51B /* CHMainDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B67EC7262C31550010A51B /* CHMainDetailViewController.xib */; };
+		39B67ED3262C3F8D0010A51B /* MathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B67ED2262C3F8D0010A51B /* MathExtension.swift */; };
+		39B67EE1262C4F130010A51B /* CHMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B67EE0262C4F130010A51B /* CHMainViewModel.swift */; };
+		39B67EF3262C64510010A51B /* CHUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B67EF2262C64510010A51B /* CHUtility.swift */; };
+		39B67EFE262C747D0010A51B /* MVVMExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B67EFD262C747D0010A51B /* MVVMExtension.swift */; };
+		39B67F03262C85EB0010A51B /* CHMainViewDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B67F02262C85EB0010A51B /* CHMainViewDetailModel.swift */; };
+		5E697245A255E82A1A1857B1 /* Pods_CathayHoldings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE86131430CDF8837568FE /* Pods_CathayHoldings.framework */; };
+		E5B0054A800DF6C3CA46C340 /* Pods_CathayHoldingsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C771BCAD024BCB66FBF7E79D /* Pods_CathayHoldingsTests.framework */; };
+		F893BAD31CC9D4E2499CE683 /* Pods_CathayHoldings_CathayHoldingsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C895F428C6E4378F7D1A7915 /* Pods_CathayHoldings_CathayHoldingsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39B55A35262AA1750044B32C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39B55A16262AA1740044B32C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39B55A1D262AA1740044B32C;
+			remoteInfo = CathayHoldings;
+		};
+		39B55A40262AA1750044B32C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39B55A16262AA1740044B32C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39B55A1D262AA1740044B32C;
+			remoteInfo = CathayHoldings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CAE86131430CDF8837568FE /* Pods_CathayHoldings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CathayHoldings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2876DA175ACF9F53A1B283AD /* Pods-CathayHoldings-CathayHoldingsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CathayHoldings-CathayHoldingsUITests.debug.xcconfig"; path = "Target Support Files/Pods-CathayHoldings-CathayHoldingsUITests/Pods-CathayHoldings-CathayHoldingsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		39A31AB7262AA9A700B7CDE9 /* CHMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHMainViewController.swift; sourceTree = "<group>"; };
+		39A31AB8262AA9A700B7CDE9 /* CHMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CHMainViewController.xib; sourceTree = "<group>"; };
+		39B55A1E262AA1740044B32C /* CathayHoldings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CathayHoldings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B55A21262AA1740044B32C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39B55A2A262AA1750044B32C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39B55A2D262AA1750044B32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39B55A2F262AA1750044B32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39B55A34262AA1750044B32C /* CathayHoldingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CathayHoldingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B55A38262AA1750044B32C /* CathayHoldingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathayHoldingsTests.swift; sourceTree = "<group>"; };
+		39B55A3A262AA1750044B32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39B55A3F262AA1750044B32C /* CathayHoldingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CathayHoldingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B55A43262AA1750044B32C /* CathayHoldingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathayHoldingsUITests.swift; sourceTree = "<group>"; };
+		39B55A45262AA1750044B32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39B67E87262B21DA0010A51B /* CHMainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHMainViewCell.swift; sourceTree = "<group>"; };
+		39B67E88262B21DA0010A51B /* CHMainViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CHMainViewCell.xib; sourceTree = "<group>"; };
+		39B67E9C262C0B840010A51B /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		39B67EA9262C0C110010A51B /* CHWebServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHWebServiceManager.swift; sourceTree = "<group>"; };
+		39B67EAF262C0F7C0010A51B /* CHZooPlantWS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHZooPlantWS.swift; sourceTree = "<group>"; };
+		39B67EB7262C12C50010A51B /* CHWebServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHWebServiceModel.swift; sourceTree = "<group>"; };
+		39B67EBC262C14DC0010A51B /* URLRequestExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestExtension.swift; sourceTree = "<group>"; };
+		39B67EC1262C16070010A51B /* ErrorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorExtension.swift; sourceTree = "<group>"; };
+		39B67EC6262C31550010A51B /* CHMainDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHMainDetailViewController.swift; sourceTree = "<group>"; };
+		39B67EC7262C31550010A51B /* CHMainDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CHMainDetailViewController.xib; sourceTree = "<group>"; };
+		39B67ED2262C3F8D0010A51B /* MathExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExtension.swift; sourceTree = "<group>"; };
+		39B67EE0262C4F130010A51B /* CHMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHMainViewModel.swift; sourceTree = "<group>"; };
+		39B67EF2262C64510010A51B /* CHUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHUtility.swift; sourceTree = "<group>"; };
+		39B67EFD262C747D0010A51B /* MVVMExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExtension.swift; sourceTree = "<group>"; };
+		39B67F02262C85EB0010A51B /* CHMainViewDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHMainViewDetailModel.swift; sourceTree = "<group>"; };
+		46E38C76A2D1C29288240C6F /* Pods-CathayHoldings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CathayHoldings.debug.xcconfig"; path = "Target Support Files/Pods-CathayHoldings/Pods-CathayHoldings.debug.xcconfig"; sourceTree = "<group>"; };
+		9FC72E724E0240E85C56C4E6 /* Pods-CathayHoldings-CathayHoldingsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CathayHoldings-CathayHoldingsUITests.release.xcconfig"; path = "Target Support Files/Pods-CathayHoldings-CathayHoldingsUITests/Pods-CathayHoldings-CathayHoldingsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C771BCAD024BCB66FBF7E79D /* Pods_CathayHoldingsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CathayHoldingsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C895F428C6E4378F7D1A7915 /* Pods_CathayHoldings_CathayHoldingsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CathayHoldings_CathayHoldingsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBAA13B45FFCEB94B77D3E3 /* Pods-CathayHoldings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CathayHoldings.release.xcconfig"; path = "Target Support Files/Pods-CathayHoldings/Pods-CathayHoldings.release.xcconfig"; sourceTree = "<group>"; };
+		DB1C9DCDB13EF3A3392807F6 /* Pods-CathayHoldingsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CathayHoldingsTests.release.xcconfig"; path = "Target Support Files/Pods-CathayHoldingsTests/Pods-CathayHoldingsTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1AC9CF41D4E51AEFEA7D869 /* Pods-CathayHoldingsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CathayHoldingsTests.debug.xcconfig"; path = "Target Support Files/Pods-CathayHoldingsTests/Pods-CathayHoldingsTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39B55A1B262AA1740044B32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E697245A255E82A1A1857B1 /* Pods_CathayHoldings.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B55A31262AA1750044B32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B0054A800DF6C3CA46C340 /* Pods_CathayHoldingsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B55A3C262AA1750044B32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F893BAD31CC9D4E2499CE683 /* Pods_CathayHoldings_CathayHoldingsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2469AF3289A9D5D4E635DBFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CAE86131430CDF8837568FE /* Pods_CathayHoldings.framework */,
+				C895F428C6E4378F7D1A7915 /* Pods_CathayHoldings_CathayHoldingsUITests.framework */,
+				C771BCAD024BCB66FBF7E79D /* Pods_CathayHoldingsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39A31AB6262AA98900B7CDE9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				39A31AB7262AA9A700B7CDE9 /* CHMainViewController.swift */,
+				39A31AB8262AA9A700B7CDE9 /* CHMainViewController.xib */,
+				39B67EC6262C31550010A51B /* CHMainDetailViewController.swift */,
+				39B67EC7262C31550010A51B /* CHMainDetailViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		39B55A15262AA1740044B32C = {
+			isa = PBXGroup;
+			children = (
+				39B55A20262AA1740044B32C /* CathayHoldings */,
+				39B55A37262AA1750044B32C /* CathayHoldingsTests */,
+				39B55A42262AA1750044B32C /* CathayHoldingsUITests */,
+				39B55A1F262AA1740044B32C /* Products */,
+				74CE93FD86BF3FD38BE331FE /* Pods */,
+				2469AF3289A9D5D4E635DBFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39B55A1F262AA1740044B32C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39B55A1E262AA1740044B32C /* CathayHoldings.app */,
+				39B55A34262AA1750044B32C /* CathayHoldingsTests.xctest */,
+				39B55A3F262AA1750044B32C /* CathayHoldingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39B55A20262AA1740044B32C /* CathayHoldings */ = {
+			isa = PBXGroup;
+			children = (
+				39B67EF1262C64230010A51B /* Utilities */,
+				39B67EDA262C4DD60010A51B /* ViewModels */,
+				39B67EAE262C0D310010A51B /* Models */,
+				39B67EA8262C0BF50010A51B /* WebServices */,
+				39B67E9B262C0B710010A51B /* Extensions */,
+				39B67E86262B21C20010A51B /* Views */,
+				39B55A21262AA1740044B32C /* AppDelegate.swift */,
+				39A31AB6262AA98900B7CDE9 /* ViewControllers */,
+				39B55A2A262AA1750044B32C /* Assets.xcassets */,
+				39B55A2C262AA1750044B32C /* LaunchScreen.storyboard */,
+				39B55A2F262AA1750044B32C /* Info.plist */,
+			);
+			path = CathayHoldings;
+			sourceTree = "<group>";
+		};
+		39B55A37262AA1750044B32C /* CathayHoldingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				39B55A38262AA1750044B32C /* CathayHoldingsTests.swift */,
+				39B55A3A262AA1750044B32C /* Info.plist */,
+			);
+			path = CathayHoldingsTests;
+			sourceTree = "<group>";
+		};
+		39B55A42262AA1750044B32C /* CathayHoldingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39B55A43262AA1750044B32C /* CathayHoldingsUITests.swift */,
+				39B55A45262AA1750044B32C /* Info.plist */,
+			);
+			path = CathayHoldingsUITests;
+			sourceTree = "<group>";
+		};
+		39B67E86262B21C20010A51B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				39B67E87262B21DA0010A51B /* CHMainViewCell.swift */,
+				39B67E88262B21DA0010A51B /* CHMainViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39B67E9B262C0B710010A51B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				39B67E9C262C0B840010A51B /* UIImageViewExtension.swift */,
+				39B67EBC262C14DC0010A51B /* URLRequestExtension.swift */,
+				39B67EC1262C16070010A51B /* ErrorExtension.swift */,
+				39B67ED2262C3F8D0010A51B /* MathExtension.swift */,
+				39B67EFD262C747D0010A51B /* MVVMExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		39B67EA8262C0BF50010A51B /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				39B67EA9262C0C110010A51B /* CHWebServiceManager.swift */,
+				39B67EAF262C0F7C0010A51B /* CHZooPlantWS.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		39B67EAE262C0D310010A51B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				39B67EB7262C12C50010A51B /* CHWebServiceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		39B67EDA262C4DD60010A51B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				39B67EE0262C4F130010A51B /* CHMainViewModel.swift */,
+				39B67F02262C85EB0010A51B /* CHMainViewDetailModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		39B67EF1262C64230010A51B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				39B67EF2262C64510010A51B /* CHUtility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		74CE93FD86BF3FD38BE331FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46E38C76A2D1C29288240C6F /* Pods-CathayHoldings.debug.xcconfig */,
+				CCBAA13B45FFCEB94B77D3E3 /* Pods-CathayHoldings.release.xcconfig */,
+				2876DA175ACF9F53A1B283AD /* Pods-CathayHoldings-CathayHoldingsUITests.debug.xcconfig */,
+				9FC72E724E0240E85C56C4E6 /* Pods-CathayHoldings-CathayHoldingsUITests.release.xcconfig */,
+				F1AC9CF41D4E51AEFEA7D869 /* Pods-CathayHoldingsTests.debug.xcconfig */,
+				DB1C9DCDB13EF3A3392807F6 /* Pods-CathayHoldingsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39B55A1D262AA1740044B32C /* CathayHoldings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B55A48262AA1750044B32C /* Build configuration list for PBXNativeTarget "CathayHoldings" */;
+			buildPhases = (
+				28E9BD376BED6C25CAE9EA6C /* [CP] Check Pods Manifest.lock */,
+				39B55A1A262AA1740044B32C /* Sources */,
+				39B55A1B262AA1740044B32C /* Frameworks */,
+				39B55A1C262AA1740044B32C /* Resources */,
+				169D2CF584C2EB7129256E98 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CathayHoldings;
+			productName = CathayHoldings;
+			productReference = 39B55A1E262AA1740044B32C /* CathayHoldings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39B55A33262AA1750044B32C /* CathayHoldingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B55A4B262AA1750044B32C /* Build configuration list for PBXNativeTarget "CathayHoldingsTests" */;
+			buildPhases = (
+				A6E59F2B4E2B98C5961430AF /* [CP] Check Pods Manifest.lock */,
+				39B55A30262AA1750044B32C /* Sources */,
+				39B55A31262AA1750044B32C /* Frameworks */,
+				39B55A32262AA1750044B32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39B55A36262AA1750044B32C /* PBXTargetDependency */,
+			);
+			name = CathayHoldingsTests;
+			productName = CathayHoldingsTests;
+			productReference = 39B55A34262AA1750044B32C /* CathayHoldingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39B55A3E262AA1750044B32C /* CathayHoldingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B55A4E262AA1750044B32C /* Build configuration list for PBXNativeTarget "CathayHoldingsUITests" */;
+			buildPhases = (
+				C0AAE7CA946F9B5B68E7E253 /* [CP] Check Pods Manifest.lock */,
+				39B55A3B262AA1750044B32C /* Sources */,
+				39B55A3C262AA1750044B32C /* Frameworks */,
+				39B55A3D262AA1750044B32C /* Resources */,
+				34F171C6861BB44FC1C37899 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39B55A41262AA1750044B32C /* PBXTargetDependency */,
+			);
+			name = CathayHoldingsUITests;
+			productName = CathayHoldingsUITests;
+			productReference = 39B55A3F262AA1750044B32C /* CathayHoldingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39B55A16262AA1740044B32C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					39B55A1D262AA1740044B32C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					39B55A33262AA1750044B32C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 39B55A1D262AA1740044B32C;
+					};
+					39B55A3E262AA1750044B32C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 39B55A1D262AA1740044B32C;
+					};
+				};
+			};
+			buildConfigurationList = 39B55A19262AA1740044B32C /* Build configuration list for PBXProject "CathayHoldings" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39B55A15262AA1740044B32C;
+			productRefGroup = 39B55A1F262AA1740044B32C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39B55A1D262AA1740044B32C /* CathayHoldings */,
+				39B55A33262AA1750044B32C /* CathayHoldingsTests */,
+				39B55A3E262AA1750044B32C /* CathayHoldingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39B55A1C262AA1740044B32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B55A2E262AA1750044B32C /* LaunchScreen.storyboard in Resources */,
+				39A31ABA262AA9A700B7CDE9 /* CHMainViewController.xib in Resources */,
+				39B67E8A262B21DA0010A51B /* CHMainViewCell.xib in Resources */,
+				39B67EC9262C31550010A51B /* CHMainDetailViewController.xib in Resources */,
+				39B55A2B262AA1750044B32C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B55A32262AA1750044B32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B55A3D262AA1750044B32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		169D2CF584C2EB7129256E98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CathayHoldings/Pods-CathayHoldings-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CathayHoldings/Pods-CathayHoldings-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CathayHoldings/Pods-CathayHoldings-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28E9BD376BED6C25CAE9EA6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CathayHoldings-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34F171C6861BB44FC1C37899 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CathayHoldings-CathayHoldingsUITests/Pods-CathayHoldings-CathayHoldingsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CathayHoldings-CathayHoldingsUITests/Pods-CathayHoldings-CathayHoldingsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CathayHoldings-CathayHoldingsUITests/Pods-CathayHoldings-CathayHoldingsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E59F2B4E2B98C5961430AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CathayHoldingsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0AAE7CA946F9B5B68E7E253 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CathayHoldings-CathayHoldingsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39B55A1A262AA1740044B32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B67EAA262C0C110010A51B /* CHWebServiceManager.swift in Sources */,
+				39A31AB9262AA9A700B7CDE9 /* CHMainViewController.swift in Sources */,
+				39B67E89262B21DA0010A51B /* CHMainViewCell.swift in Sources */,
+				39B67F03262C85EB0010A51B /* CHMainViewDetailModel.swift in Sources */,
+				39B67EB8262C12C50010A51B /* CHWebServiceModel.swift in Sources */,
+				39B67EC2262C16070010A51B /* ErrorExtension.swift in Sources */,
+				39B67EFE262C747D0010A51B /* MVVMExtension.swift in Sources */,
+				39B67EE1262C4F130010A51B /* CHMainViewModel.swift in Sources */,
+				39B67ED3262C3F8D0010A51B /* MathExtension.swift in Sources */,
+				39B67E9D262C0B840010A51B /* UIImageViewExtension.swift in Sources */,
+				39B67EC8262C31550010A51B /* CHMainDetailViewController.swift in Sources */,
+				39B67EBD262C14DC0010A51B /* URLRequestExtension.swift in Sources */,
+				39B55A22262AA1740044B32C /* AppDelegate.swift in Sources */,
+				39B67EB0262C0F7C0010A51B /* CHZooPlantWS.swift in Sources */,
+				39B67EF3262C64510010A51B /* CHUtility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B55A30262AA1750044B32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B55A39262AA1750044B32C /* CathayHoldingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B55A3B262AA1750044B32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B55A44262AA1750044B32C /* CathayHoldingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39B55A36262AA1750044B32C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39B55A1D262AA1740044B32C /* CathayHoldings */;
+			targetProxy = 39B55A35262AA1750044B32C /* PBXContainerItemProxy */;
+		};
+		39B55A41262AA1750044B32C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39B55A1D262AA1740044B32C /* CathayHoldings */;
+			targetProxy = 39B55A40262AA1750044B32C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39B55A2C262AA1750044B32C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39B55A2D262AA1750044B32C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39B55A46262AA1750044B32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39B55A47262AA1750044B32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39B55A49262AA1750044B32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E38C76A2D1C29288240C6F /* Pods-CathayHoldings.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CathayHoldings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.CathayHoldings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		39B55A4A262AA1750044B32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBAA13B45FFCEB94B77D3E3 /* Pods-CathayHoldings.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CathayHoldings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.CathayHoldings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		39B55A4C262AA1750044B32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1AC9CF41D4E51AEFEA7D869 /* Pods-CathayHoldingsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CathayHoldingsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.CathayHoldingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CathayHoldings.app/CathayHoldings";
+			};
+			name = Debug;
+		};
+		39B55A4D262AA1750044B32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB1C9DCDB13EF3A3392807F6 /* Pods-CathayHoldingsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CathayHoldingsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.CathayHoldingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CathayHoldings.app/CathayHoldings";
+			};
+			name = Release;
+		};
+		39B55A4F262AA1750044B32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2876DA175ACF9F53A1B283AD /* Pods-CathayHoldings-CathayHoldingsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CathayHoldingsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.CathayHoldingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CathayHoldings;
+			};
+			name = Debug;
+		};
+		39B55A50262AA1750044B32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC72E724E0240E85C56C4E6 /* Pods-CathayHoldings-CathayHoldingsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CathayHoldingsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.CathayHoldingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CathayHoldings;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39B55A19262AA1740044B32C /* Build configuration list for PBXProject "CathayHoldings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B55A46262AA1750044B32C /* Debug */,
+				39B55A47262AA1750044B32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B55A48262AA1750044B32C /* Build configuration list for PBXNativeTarget "CathayHoldings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B55A49262AA1750044B32C /* Debug */,
+				39B55A4A262AA1750044B32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B55A4B262AA1750044B32C /* Build configuration list for PBXNativeTarget "CathayHoldingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B55A4C262AA1750044B32C /* Debug */,
+				39B55A4D262AA1750044B32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B55A4E262AA1750044B32C /* Build configuration list for PBXNativeTarget "CathayHoldingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B55A4F262AA1750044B32C /* Debug */,
+				39B55A50262AA1750044B32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39B55A16262AA1740044B32C /* Project object */;
+}

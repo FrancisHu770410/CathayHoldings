@@ -1,0 +1,6 @@
+framework module Pods_CathayHoldingsTests {
+  umbrella header "Pods-CathayHoldingsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
