@@ -110,6 +110,7 @@ class CHMainViewController: UIViewController {
             m_lcTableViewY.constant = constant
             m_vNavigation.alpha = showSmall ? 0.0 : 1.0
             m_lbSmallTitle.alpha = showSmall ? 1.0 : 0.0
+            m_tvData.isScrollEnabled = showSmall
         }
     }
     
