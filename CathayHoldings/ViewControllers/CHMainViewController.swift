@@ -114,7 +114,12 @@ class CHMainViewController: UIViewController {
     }
     
     private func gestureCheckStatus() {
-        m_tvData.isScrollEnabled = m_tvData.contentOffset.y > m_tvData.frame.size.height
+        if m_tvData.contentOffset.y <= 0 {
+            m_tvData.isScrollEnabled = false
+            return
+        }
+        
+        m_tvData.isScrollEnabled = m_lbSmallTitle.alpha == 1.0
     }
 
     @IBAction func pan(gesture: UIPanGestureRecognizer) {
